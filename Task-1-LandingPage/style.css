@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    background-color: #E3F2FD;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #1A237E;
+    position: relative;
+    top: 0;
+}
+
+.header h1{
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header ul{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header ul li a{
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header ul li a:hover{
+    color: yellow;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    padding-top:15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.content img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.paris,.tokyo,.newyork,.london,.sydney,.rome,.capetown,.dubai{
+    position: relative;
+    margin: 20px;
+}
+
+.city{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6)
+}
