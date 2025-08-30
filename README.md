@@ -20,10 +20,10 @@ This repository contains the 4 completed tasks from the Web Development Internsh
 
 ---
 
-### Task 3 – To-Do Web App
-- A task management web app that allows users to add, mark, and remove to-dos.
-- Fully functional using JavaScript logic and dynamic DOM updates.
-- Folder: `Task-3-TodoApp`
+### Task 3 – Game
+- Developed a classic Tic Tac Toe game with a user-friendly interface.
+- Implemented game logic to handle turns, detect wins, and handle draws.
+- Folder: `Task-3-Game`
 
 ---
 
