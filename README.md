@@ -27,10 +27,10 @@ This repository contains the 4 completed tasks from the Web Development Internsh
 
 ---
 
-### Task 4 – Weather App
-- Fetches real-time weather data using an external API.
-- Displays temperature, city name, weather icon, and more.
-- Folder: `Task-4-WeatherApp`
+### Task 4 – Portfolio
+- Showcases my projects and skills in one place.
+- Built to give a quick overview of my work.
+- Folder: `Task-4-Portfolio`
 
 ---
 
